@@ -1,11 +1,11 @@
-MODULES = tehpg
-#DOCS = README.isbn_issn
-
-DATA_built = tehpg.sql
-DATA = uninstall_tehpg.sql
-
 
 PG_CONFIG = pg_config
+
+MODULES = bitstring_helpers
+DOCS = README.md
+
+DATA = bitstring_helpers--1.0.sql
+
 PGXS := $(shell $(PG_CONFIG) --pgxs)
 include $(PGXS)
 
