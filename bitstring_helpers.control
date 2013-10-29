@@ -1,0 +1,6 @@
+# bitstring_helpers extension
+comment = 'Helper functions for working with bitvar bitstrings'
+default_version = '1.0'
+module_pathname = '$libdir/bitstring_helpers'
+relocatable = true
+superuser = false
