@@ -2,7 +2,7 @@
 PG_CONFIG = pg_config
 
 MODULES = bitstring_helpers
-DOCS = README.md
+DOCS = README.bitstring_helpers
 
 DATA = bitstring_helpers--1.0.sql
 
